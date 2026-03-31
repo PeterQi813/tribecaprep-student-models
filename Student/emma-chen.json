@@ -1,0 +1,58 @@
+{
+  "data": {
+    "type": "card",
+    "attributes": {
+      "gradeLevel": {
+        "value": "3rd"
+      },
+      "photoUrl": null,
+      "currentLocation": {
+        "location": "Classroom 3B",
+        "status": {
+          "value": "in-class"
+        },
+        "since": "2025-02-27T08:15:00Z"
+      },
+      "tags": [
+        {
+          "label": "Math Enrichment",
+          "color": "#7c5fc4",
+          "tagType": {
+            "value": "program"
+          }
+        },
+        {
+          "label": "Orchestra",
+          "color": "#2a9d8f",
+          "tagType": {
+            "value": "activity"
+          }
+        }
+      ],
+      "cardInfo": {
+        "title": null,
+        "description": "3rd grade student with IEP and peanut allergy",
+        "thumbnailURL": null,
+        "notes": "Projection of full profile for daily operations"
+      }
+    },
+    "relationships": {
+      "fullProfile": {
+        "links": {
+          "self": "../StudentFullProfile/emma-chen-001"
+        }
+      },
+      "cardInfo.theme": {
+        "links": {
+          "self": null
+        }
+      }
+    },
+    "meta": {
+      "adoptsFrom": {
+        "module": "../student",
+        "name": "Student"
+      }
+    }
+  }
+}

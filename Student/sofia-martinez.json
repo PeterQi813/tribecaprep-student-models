@@ -1,0 +1,51 @@
+{
+  "data": {
+    "type": "card",
+    "attributes": {
+      "gradeLevel": {
+        "value": "K"
+      },
+      "photoUrl": null,
+      "currentLocation": {
+        "location": "Classroom K-A",
+        "status": {
+          "value": "in-class"
+        },
+        "since": "2025-02-27T08:30:00Z"
+      },
+      "tags": [
+        {
+          "tagType": {
+            "value": "activity"
+          },
+          "label": "Art Club",
+          "color": "#2a9d8f"
+        }
+      ],
+      "cardInfo": {
+        "title": null,
+        "description": "Kindergarten student with dairy allergy (lactose intolerant)",
+        "thumbnailURL": null,
+        "notes": "Projection of full profile for daily operations"
+      }
+    },
+    "relationships": {
+      "fullProfile": {
+        "links": {
+          "self": "../StudentFullProfile/sofia-martinez-003"
+        }
+      },
+      "cardInfo.theme": {
+        "links": {
+          "self": null
+        }
+      }
+    },
+    "meta": {
+      "adoptsFrom": {
+        "module": "../student",
+        "name": "Student"
+      }
+    }
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "data": {
+    "type": "card",
+    "attributes": {
+      "gradeLevel": {
+        "value": "5th"
+      },
+      "photoUrl": null,
+      "currentLocation": {
+        "location": "Gymnasium",
+        "status": {
+          "value": "specials"
+        },
+        "since": "2025-02-27T10:30:00Z"
+      },
+      "tags": [
+        {
+          "label": "Basketball",
+          "color": "#e05d50",
+          "tagType": {
+            "value": "activity"
+          }
+        },
+        {
+          "label": "Student Council",
+          "color": "#7c5fc4",
+          "tagType": {
+            "value": "program"
+          }
+        }
+      ],
+      "cardInfo": {
+        "title": null,
+        "description": "5th grade student with 504 plan (diabetes) and custody alert",
+        "thumbnailURL": null,
+        "notes": "Projection of full profile for daily operations"
+      }
+    },
+    "relationships": {
+      "fullProfile": {
+        "links": {
+          "self": "../StudentFullProfile/marcus-johnson-002"
+        }
+      },
+      "cardInfo.theme": {
+        "links": {
+          "self": null
+        }
+      }
+    },
+    "meta": {
+      "adoptsFrom": {
+        "module": "../student",
+        "name": "Student"
+      }
+    }
+  }
+}

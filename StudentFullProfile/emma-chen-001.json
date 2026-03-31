@@ -1,0 +1,217 @@
+{
+  "data": {
+    "meta": {
+      "adoptsFrom": {
+        "name": "StudentFullProfile",
+        "module": "../student-full-profile"
+      },
+      "_touched": 1773078174903
+    },
+    "type": "card",
+    "attributes": {
+      "cardInfo": {
+        "title": null,
+        "notes": null,
+        "description": "Complete student record for Emma Chen",
+        "thumbnailURL": null
+      },
+      "identity": {
+        "studentId": "TP-2022-0156",
+        "firstName": "Emma",
+        "lastName": "Chen",
+        "preferredName": "Emmy",
+        "dateOfBirth": "2016-03-15",
+        "gradeLevel": {
+          "value": "3rd"
+        },
+        "enrollmentDate": "2021-09-01",
+        "withdrawalDate": null,
+        "active": true
+      },
+      "medical": {
+        "medicalConditions": "Asthma (exercise-induced). Uses inhaler as needed before PE.",
+        "allergies": [
+          {
+            "allergen": "Tree Nuts",
+            "severity": {
+              "value": "life-threatening"
+            },
+            "reaction": "Anaphylaxis - throat swelling, difficulty breathing",
+            "treatment": "Administer EpiPen immediately, call 911",
+            "epiPenRequired": true,
+            "notes": "EpiPen kept in nurse's office and classroom emergency kit"
+          },
+          {
+            "allergen": "Bee Stings",
+            "severity": {
+              "value": "moderate"
+            },
+            "reaction": "Localized swelling, hives",
+            "treatment": "Benadryl, ice pack, monitor for 30 minutes",
+            "epiPenRequired": false,
+            "notes": "Has happened once before at summer camp"
+          }
+        ],
+        "medications": [
+          {
+            "medicationName": "Albuterol Inhaler",
+            "dosage": "2 puffs",
+            "frequency": "As needed before physical activity",
+            "administeredAt": {
+              "value": "school"
+            },
+            "prescribingDoctor": "Dr. Sarah Kim",
+            "startDate": "2023-01-15",
+            "endDate": null,
+            "sideEffects": "May cause slight jitteriness",
+            "notes": "Student can self-administer with supervision"
+          }
+        ],
+        "dietaryRestrictions": "**Nut-free diet required**\n\nNo tree nuts or products processed in facilities with tree nuts. Check all labels carefully. Safe alternatives: sunflower seed butter, soy products.",
+        "primaryPhysician": {
+          "fax": "(212) 555-0148",
+          "name": "Dr. Sarah Kim, MD",
+          "email": "s.kim@tribecapediatrics.com",
+          "phone": "(212) 555-0147",
+          "address": {
+            "city": "New York",
+            "state": "NY",
+            "street1": "150 Hudson Street",
+            "street2": "Suite 400",
+            "zipCode": "10013"
+          }
+        },
+        "medicalNotes": "Annual physical due in March 2025. Immunizations up to date. Last asthma action plan review: September 2024."
+      },
+      "family": {
+        "primaryParent": {
+          "email": "jennifer.chen@email.com",
+          "phone": "(212) 555-0101",
+          "address": {
+            "city": "New York",
+            "state": "NY",
+            "street1": "85 Warren Street",
+            "street2": "Apt 12B",
+            "zipCode": "10007"
+          },
+          "employer": "Goldman Sachs",
+          "lastName": "Chen",
+          "phoneAlt": "(917) 555-0102",
+          "firstName": "Jennifer",
+          "workPhone": "(212) 555-1000",
+          "portalAccess": true,
+          "relationship": {
+            "value": "mother"
+          },
+          "receivesReports": true,
+          "isPrimaryContact": true
+        },
+        "secondaryParent": {
+          "email": "m.chen@techstartup.io",
+          "phone": "(646) 555-0203",
+          "address": {
+            "city": "New York",
+            "state": "NY",
+            "street1": "220 West Broadway",
+            "street2": "Apt 5A",
+            "zipCode": "10013"
+          },
+          "employer": "Tech Startup Inc.",
+          "lastName": "Chen",
+          "phoneAlt": null,
+          "firstName": "Michael",
+          "workPhone": "(212) 555-2000",
+          "portalAccess": true,
+          "relationship": {
+            "value": "father"
+          },
+          "receivesReports": true,
+          "isPrimaryContact": false
+        },
+        "emergencyContacts": [
+          {
+            "name": "Linda Chen",
+            "relationship": "Grandmother",
+            "phone": "(212) 555-0199",
+            "phoneAlt": null,
+            "priority": 1,
+            "authorizedPickup": true,
+            "hasKey": false,
+            "notes": "Retired, usually available"
+          },
+          {
+            "name": "Robert Chen",
+            "relationship": "Uncle",
+            "phone": "(917) 555-0345",
+            "phoneAlt": null,
+            "priority": 2,
+            "authorizedPickup": false,
+            "hasKey": false,
+            "notes": "Contact if grandmother unavailable"
+          }
+        ],
+        "householdNotes": "Parents divorced 2022, amicable co-parenting. Student transitions well between homes."
+      },
+      "custody": {
+        "custodyArrangement": {
+          "value": "joint"
+        },
+        "custodyNotes": "Standard joint custody. Both parents have equal pickup rights. Week on/week off schedule.",
+        "authorizedPickups": [
+          {
+            "name": "Linda Chen",
+            "relationship": "Grandmother",
+            "phone": "(212) 555-0199",
+            "photoIdRequired": true,
+            "validUntil": "2025-06-30",
+            "notes": "Picks up on Wednesdays for piano lessons"
+          },
+          {
+            "name": "Marcus Wong",
+            "relationship": "Family Friend",
+            "phone": "(917) 555-0234",
+            "photoIdRequired": true,
+            "validUntil": "2025-06-30",
+            "notes": "Emergency backup only"
+          }
+        ],
+        "restrictedPersons": [],
+        "legalDocuments": null
+      },
+      "financial": {
+        "financialAidStatus": {
+          "value": "partial"
+        },
+        "scholarshipPercent": 25,
+        "paymentStatus": {
+          "value": "current"
+        },
+        "billingNotes": "Payment plan: 10 monthly installments. Auto-pay enrolled."
+      },
+      "iep": {
+        "hasIEP": true,
+        "iepDate": "2023-09-15",
+        "iepSummary": "**Learning Disability - Reading**\n\nEmma qualifies for special education services under SLD classification. Primary area of need: decoding and reading fluency.\n\n**Goals:**\n- Increase reading fluency from 65 to 90 words per minute\n- Improve decoding accuracy to 90%\n\n**Services:**\n- 30 min/day pull-out reading intervention\n- Wilson Reading System instruction 3x/week",
+        "has504": false,
+        "accommodations": "**Classroom Accommodations:**\n- Extended time (1.5x) on tests\n- Preferential seating near teacher\n- Audio versions of texts when available\n- Reduced homework load (quality over quantity)\n- Use of graphic organizers"
+      }
+    },
+    "relationships": {
+      "studentStub": {
+        "links": {
+          "self": "../Student/emma-chen"
+        }
+      },
+      "cardInfo.theme": {
+        "links": {
+          "self": null
+        }
+      },
+      "identity.photo": {
+        "links": {
+          "self": null
+        }
+      }
+    }
+  }
+}

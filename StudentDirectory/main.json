@@ -1,0 +1,27 @@
+{
+  "data": {
+    "type": "card",
+    "attributes": {
+      "cardInfo": {
+        "title": "Student Directory",
+        "description": "Browse and search all enrolled students at Tribeca Prep",
+        "thumbnailURL": null,
+        "notes": null
+      }
+    },
+    "relationships": {
+      "cardInfo.theme": {
+        "links": {
+          "self": null
+        }
+      }
+    },
+    "meta": {
+      "adoptsFrom": {
+        "module": "../student-directory",
+        "name": "StudentDirectory"
+      },
+      "_touched": 1773078173295
+    }
+  }
+}

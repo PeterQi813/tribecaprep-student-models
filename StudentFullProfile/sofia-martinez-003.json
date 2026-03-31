@@ -1,0 +1,211 @@
+{
+  "data": {
+    "meta": {
+      "adoptsFrom": {
+        "name": "StudentFullProfile",
+        "module": "../student-full-profile"
+      },
+      "_touched": 1773078178130
+    },
+    "type": "card",
+    "attributes": {
+      "iep": {
+        "has504": false,
+        "hasIEP": false,
+        "iepDate": null,
+        "iepSummary": null,
+        "accommodations": null
+      },
+      "family": {
+        "primaryParent": {
+          "email": "ana.martinez@lawfirm.com",
+          "phone": "(212) 555-0600",
+          "address": {
+            "city": "New York",
+            "state": "NY",
+            "street1": "101 Worth Street",
+            "street2": "Penthouse B",
+            "zipCode": "10013"
+          },
+          "employer": "Martinez & Associates LLP",
+          "lastName": "Martinez",
+          "phoneAlt": "(917) 555-0601",
+          "firstName": "Ana",
+          "workPhone": "(212) 555-0700",
+          "portalAccess": true,
+          "relationship": {
+            "value": "mother"
+          },
+          "receivesReports": true,
+          "isPrimaryContact": true
+        },
+        "householdNotes": "Two-parent household with older sibling (Mateo, 2nd grade at same school). Both parents have demanding careers. Nanny Elena is primary caregiver during weekdays. Grandparents very involved.",
+        "secondaryParent": {
+          "email": "david.martinez@hospital.org",
+          "phone": "(646) 555-0602",
+          "address": {
+            "city": "New York",
+            "state": "NY",
+            "street1": "101 Worth Street",
+            "street2": "Penthouse B",
+            "zipCode": "10013"
+          },
+          "employer": "NYU Langone Health",
+          "lastName": "Martinez",
+          "phoneAlt": "(212) 555-0603",
+          "firstName": "David",
+          "workPhone": "(212) 555-0800",
+          "portalAccess": true,
+          "relationship": {
+            "value": "father"
+          },
+          "receivesReports": true,
+          "isPrimaryContact": false
+        },
+        "emergencyContacts": [
+          {
+            "name": "Elena Rodriguez",
+            "relationship": "Nanny",
+            "phone": "(347) 555-0678",
+            "phoneAlt": null,
+            "priority": 1,
+            "authorizedPickup": true,
+            "hasKey": true,
+            "notes": "Full-time nanny, always reachable during school hours"
+          },
+          {
+            "name": "Carlos Martinez",
+            "relationship": "Grandfather",
+            "phone": "(212) 555-0789",
+            "phoneAlt": null,
+            "priority": 2,
+            "authorizedPickup": true,
+            "hasKey": true,
+            "notes": "Retired, lives in Tribeca"
+          },
+          {
+            "name": "Isabella Martinez",
+            "relationship": "Grandmother",
+            "phone": "(212) 555-0790",
+            "phoneAlt": null,
+            "priority": 3,
+            "authorizedPickup": true,
+            "hasKey": true,
+            "notes": "Retired, lives in Tribeca"
+          }
+        ]
+      },
+      "custody": {
+        "custodyNotes": null,
+        "legalDocuments": null,
+        "authorizedPickups": [
+          {
+            "name": "Elena Rodriguez",
+            "relationship": "Nanny",
+            "phone": "(347) 555-0678",
+            "photoIdRequired": true,
+            "validUntil": "2025-06-30",
+            "notes": "Primary daily pickup Monday-Friday"
+          },
+          {
+            "name": "Carlos Martinez",
+            "relationship": "Grandfather",
+            "phone": "(212) 555-0789",
+            "photoIdRequired": false,
+            "validUntil": "2025-06-30",
+            "notes": "Occasional pickup for family events"
+          },
+          {
+            "name": "Isabella Martinez",
+            "relationship": "Grandmother",
+            "phone": "(212) 555-0790",
+            "photoIdRequired": false,
+            "validUntil": "2025-06-30",
+            "notes": "Occasional pickup for family events"
+          }
+        ],
+        "restrictedPersons": [],
+        "custodyArrangement": {
+          "value": "joint"
+        }
+      },
+      "medical": {
+        "allergies": [
+          {
+            "allergen": "Dairy",
+            "severity": {
+              "value": "mild"
+            },
+            "reaction": "Stomach upset, mild skin rash",
+            "treatment": "Avoid dairy products. If ingested accidentally, monitor symptoms. Benadryl if rash develops.",
+            "epiPenRequired": false,
+            "notes": "Lactose intolerant - not a true allergy. Can have lactose-free alternatives."
+          }
+        ],
+        "medications": [],
+        "medicalNotes": "Healthy child, all immunizations current. Vision and hearing screening passed September 2024.",
+        "primaryPhysician": {
+          "fax": "(212) 555-0501",
+          "name": "Dr. Maria Santos, Pediatrics",
+          "email": "msantos@tribecakids.com",
+          "phone": "(212) 555-0500",
+          "address": {
+            "city": "New York",
+            "state": "NY",
+            "street1": "75 Varick Street",
+            "street2": null,
+            "zipCode": "10013"
+          }
+        },
+        "medicalConditions": null,
+        "dietaryRestrictions": "**Lactose Intolerant**\n\nProvide dairy-free alternatives:\n- Oat milk instead of regular milk\n- Dairy-free cheese and yogurt options\n- Check ingredients on baked goods"
+      },
+      "cardInfo": {
+        "name": null,
+        "notes": null,
+        "summary": null,
+        "cardThumbnailURL": null
+      },
+      "identity": {
+        "active": true,
+        "lastName": "Martinez",
+        "firstName": "Sofia",
+        "studentId": "TP-2024-0201",
+        "gradeLevel": {
+          "value": "K"
+        },
+        "dateOfBirth": "2019-07-08",
+        "preferredName": null,
+        "enrollmentDate": "2024-09-01",
+        "withdrawalDate": null
+      },
+      "financial": {
+        "billingNotes": "Paid in full for 2024-25 school year. Sibling discount applied (brother in 2nd grade).",
+        "paymentStatus": {
+          "value": "current"
+        },
+        "financialAidStatus": {
+          "value": "none"
+        },
+        "scholarshipPercent": null
+      }
+    },
+    "relationships": {
+      "studentStub": {
+        "links": {
+          "self": "../Student/sofia-martinez"
+        }
+      },
+      "cardInfo.theme": {
+        "links": {
+          "self": null
+        }
+      },
+      "identity.photo": {
+        "links": {
+          "self": null
+        }
+      }
+    }
+  }
+}
